@@ -13,6 +13,10 @@
 		896ED5E42A1B24F1008DCE9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896ED5E32A1B24F1008DCE9C /* Preview Assets.xcassets */; };
 		896ED5E62A1B24F1008DCE9C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896ED5E52A1B24F1008DCE9C /* Persistence.swift */; };
 		896ED5E92A1B24F1008DCE9C /* Mindful_Smoke.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 896ED5E72A1B24F1008DCE9C /* Mindful_Smoke.xcdatamodeld */; };
+		896ED60A2A1B27CC008DCE9C /* Metropolis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 896ED5F82A1B27CC008DCE9C /* Metropolis-Bold.otf */; };
+		896ED60D2A1B27CC008DCE9C /* Metropolis-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 896ED5FB2A1B27CC008DCE9C /* Metropolis-Regular.otf */; };
+		896ED60F2A1B27CC008DCE9C /* Metropolis-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 896ED5FD2A1B27CC008DCE9C /* Metropolis-SemiBold.otf */; };
+		896ED6152A1B295C008DCE9C /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896ED6142A1B295C008DCE9C /* Font.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,11 @@
 		896ED5E32A1B24F1008DCE9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		896ED5E52A1B24F1008DCE9C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		896ED5E82A1B24F1008DCE9C /* Mindful_Smoke.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mindful_Smoke.xcdatamodel; sourceTree = "<group>"; };
+		896ED5F82A1B27CC008DCE9C /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Metropolis-Bold.otf"; path = "../../../../../../../Downloads/Compressed/metropolis/Metropolis-Bold.otf"; sourceTree = "<group>"; };
+		896ED5FB2A1B27CC008DCE9C /* Metropolis-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Metropolis-Regular.otf"; path = "../../../../../../../Downloads/Compressed/metropolis/Metropolis-Regular.otf"; sourceTree = "<group>"; };
+		896ED5FD2A1B27CC008DCE9C /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Metropolis-SemiBold.otf"; path = "../../../../../../../Downloads/Compressed/metropolis/Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
+		896ED6132A1B2853008DCE9C /* Mindful-Smoke-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Mindful-Smoke-Info.plist"; sourceTree = SOURCE_ROOT; };
+		896ED6142A1B295C008DCE9C /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +64,13 @@
 		896ED5DB2A1B24F0008DCE9C /* Mindful Smoke */ = {
 			isa = PBXGroup;
 			children = (
+				896ED6132A1B2853008DCE9C /* Mindful-Smoke-Info.plist */,
 				896ED5DC2A1B24F0008DCE9C /* Mindful_SmokeApp.swift */,
 				896ED5DE2A1B24F0008DCE9C /* ContentView.swift */,
+				896ED6142A1B295C008DCE9C /* Font.swift */,
+				896ED5F82A1B27CC008DCE9C /* Metropolis-Bold.otf */,
+				896ED5FB2A1B27CC008DCE9C /* Metropolis-Regular.otf */,
+				896ED5FD2A1B27CC008DCE9C /* Metropolis-SemiBold.otf */,
 				896ED5E02A1B24F1008DCE9C /* Assets.xcassets */,
 				896ED5E52A1B24F1008DCE9C /* Persistence.swift */,
 				896ED5E72A1B24F1008DCE9C /* Mindful_Smoke.xcdatamodeld */,
@@ -131,7 +145,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896ED60A2A1B27CC008DCE9C /* Metropolis-Bold.otf in Resources */,
+				896ED60D2A1B27CC008DCE9C /* Metropolis-Regular.otf in Resources */,
 				896ED5E42A1B24F1008DCE9C /* Preview Assets.xcassets in Resources */,
+				896ED60F2A1B27CC008DCE9C /* Metropolis-SemiBold.otf in Resources */,
 				896ED5E12A1B24F1008DCE9C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +162,7 @@
 			files = (
 				896ED5E62A1B24F1008DCE9C /* Persistence.swift in Sources */,
 				896ED5DF2A1B24F0008DCE9C /* ContentView.swift in Sources */,
+				896ED6152A1B295C008DCE9C /* Font.swift in Sources */,
 				896ED5DD2A1B24F0008DCE9C /* Mindful_SmokeApp.swift in Sources */,
 				896ED5E92A1B24F1008DCE9C /* Mindful_Smoke.xcdatamodeld in Sources */,
 			);
@@ -278,6 +296,7 @@
 				DEVELOPMENT_TEAM = 6WA7YL6WYT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mindful-Smoke-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +326,7 @@
 				DEVELOPMENT_TEAM = 6WA7YL6WYT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mindful-Smoke-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
